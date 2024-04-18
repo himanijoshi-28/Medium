@@ -1,0 +1,8 @@
+name = "backend"
+compatibility_date = "2023-12-01"
+
+# [vars]
+#backend app will pick things from here
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiODYxMzEwM2MtZmM5OC00YTdjLThhZGYtMzZjZDVhMjUxNzE4IiwidGVuYW50X2lkIjoiMTA0OTI0N2FkMzkwZmY2NDRjZjRhMGYyMGU0YzFiZWJjNTQ5YjQ2MTAzNzYzZTVlOTA2ODBlNTE3N2Q4MDI4OSIsImludGVybmFsX3NlY3JldCI6IjhiMjNlZjhjLWJjYWItNDQ0MS05YmI0LWEyMzdlMmE5YjMyNSJ9.nibKRoDUBx9e8EwsdpCZA7rrs_LLPtsWB9VD22T4J8Y"
+
+
