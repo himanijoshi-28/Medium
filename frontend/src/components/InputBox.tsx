@@ -1,4 +1,4 @@
-import { ChangeEvent, ReactEventHandler } from "react";
+import { ChangeEvent } from "react";
 
 const InputBox = ({
   label,

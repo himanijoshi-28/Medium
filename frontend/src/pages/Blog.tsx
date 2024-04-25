@@ -6,7 +6,7 @@ import Spinner from "../components/Spinner";
 const Blog = () => {
   const { id } = useParams();
   const { blog, loading } = useBlog({ id: id || " " });
-  if (loading) {
+  if (loading || !blog) {
     return (
       <div className="flex items-center justify-center h-screen">
         <Spinner />
